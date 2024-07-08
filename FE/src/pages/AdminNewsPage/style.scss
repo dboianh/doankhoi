@@ -1,0 +1,38 @@
+.addNewsLink {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.addNewsLink:hover {
+    color: white;
+}
+
+.custom-input .anticon-search {
+    color: #6e6a6a;
+    margin-bottom: 5px;
+}
+
+.customInput {
+    border-radius: 0; /* Đặt góc thành 0 */
+  }
+.ant-select-selector {
+    border-radius: 0 !important;
+    font-size: 15px !important;
+}
+
+.ant-image-mask-info {
+    display: none !important; /* Hide the "Preview" text */
+  } 
+
+
+.stt-tag .ant-tag svg {
+    margin-bottom: 5px;
+}
+
+.table-striped-rows tr:nth-child(2n) td {
+    background-color: #fbfbfb;
+}
+.table-striped-rows thead {
+    background-color: #f1f1f1;
+}

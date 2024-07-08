@@ -1,0 +1,63 @@
+/* 
+@media screen and (max-width: 960px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+
+  .carousel .carousel-indicators {
+    display: none;
+  }
+
+ 
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+.ban {
+  object-fit: cover;
+  transition: all 0.2s linear;
+  box-shadow: 1px 1px 4px #666;
+  overflow: hidden;
+  margin-left: 0px;
+
+  cursor: pointer;
+}
+
+.carousel-item img {
+  height: 250px; 
+  object-fit: cover; 
+} */
+
+
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: auto; 
+    margin-top: 3.8rem;
+  }
+
+}
+/* 
+
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(33.333%);
+  }
+
+  .carousel-inner .carousel-item-left.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.333%);
+  }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+  transform: translateX(0);
+} */

@@ -1,0 +1,6 @@
+.ellipsis-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Số dòng hiển thị tối đa (2-3 dòng) */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=EB+Garamond:wght@600&family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Quicksand', sans-serif; */
+  }
+
+  .simplebar-placeholder { 
+    display: none;
+   }
+  
+   .css-gch2ua-MuiPaper-root-MuiAppBar-root {
+     z-index: 999 !important;
+   }
+
+   .css-1t9pz9x {
+     width: auto !important;
+     height: auto !important;
+   }
+
+   /* p {
+     margin-bottom: 0px !important;
+   } */
+  
+ 

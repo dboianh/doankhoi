@@ -1,0 +1,59 @@
+.vision {
+  // padding: 80px 0px 20px 0px;
+  // background-color: #f8f8ff;
+  background: url('../../../../images/background/visionbg.png');
+
+  padding: 20px;
+}
+
+.section_body > div {
+  width: 40%;
+}
+
+.marquee-item {
+    display: flex; /* Cho phép các phần tử con nằm cùng hàng */
+}
+
+.marquee-item i {
+    padding-right: 10px;
+    margin-top: 3px;
+    color: #ee2d1fc9;
+}
+
+.marquee-item h6 {
+  font-size: 14px;
+}
+
+.marquee-item .date {
+    color: #646464;
+}
+
+.marquee-container {
+    overflow: hidden;
+    height: 250px;
+    position: relative;
+  }
+  
+  .marquee-content {
+    animation: marquee 8s linear infinite;
+  }
+
+  .marquee-container:hover .marquee-content {
+    animation-play-state: paused;
+  }
+
+  @media (max-width: 768px) {
+    .section_body > div {
+      width: 100%;
+    }
+  
+  }
+  
+  @keyframes marquee {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(-110%);
+    }
+  }

@@ -1,0 +1,14 @@
+.photoService {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.ant-table-cell {
+    overflow: hidden;   /* Ẩn văn bản không nằm trong khung */
+    text-overflow: ellipsis; /* Thêm dấu "..." vào cuối văn bản */
+}
+  
+.customInput {
+    border-radius: 0; /* Đặt góc thành 0 */
+  }

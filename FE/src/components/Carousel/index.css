@@ -1,0 +1,106 @@
+
+.portal-container {
+    /* height: 70vh; */
+    padding: 2rem;
+    position: relative;
+    /* background: url('../../../public/images/background/half_wave_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top; */
+
+}
+
+.portal-container h1 {
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 30px;
+}
+  
+.portal-container h1::before {
+    content: '';
+    display: inline-block;
+    position: relative;
+    top: calc(-0.1 * 1em);
+    vertical-align: middle;
+    height: calc(4px + 0.7em);
+    border-left: calc(5px + 0.1em) solid #e5e5e5;
+    border-color: #00afef;
+    border-width: 7px;
+    margin-right: calc(5px + 0.2em);
+}
+
+.carousel-wrapper {
+    margin-top: 5%;   
+}
+
+.portal-card {
+    text-align: center;
+    border-radius: 10px;
+    height: 150px;
+    
+}
+.portal-image {
+    /* width: 350px; */
+    height: 150px;
+    transition: .3s;
+    margin-left: 0px;
+    box-shadow: 0px 15px 10px -15px;
+    /* border-radius: 8px; */
+    cursor: pointer;
+    transform: scale(1.0,1.0); 
+}
+
+.portal-image:hover {
+    box-shadow: 0px 15px 10px -15px;
+    transform: scale(1.05,1.05); 
+}
+
+.polygonbg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    z-index: -1;
+  }
+
+  .react-multiple-carousel__arrow {
+      z-index: 1;
+  }
+
+  .slide-item {
+    position: relative;
+    margin: auto 1rem;
+  }
+
+  .slide-overlay {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    background-color: #00000080;
+    color: #f7f7f7;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+
+  .slide-overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+
+  }
+
+  .slide-item:hover .slide-overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+
+  }

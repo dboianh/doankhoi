@@ -1,0 +1,84 @@
+
+
+.tag {
+    font-size: 14px;
+    background-color: #fff;
+    padding: 8px 30px;
+    cursor: pointer;
+}
+/* Trong file style.scss hoặc nơi bạn đang xử lý CSS */
+.pdf-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7); /* Màu nền mờ */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Đảm bảo nằm trên các phần tử khác */
+  }
+  
+  .pdf-container {
+    max-width: 80vw;
+    // max-height: 90vh;
+    height: 100%;
+    overflow: auto;
+    background-color: #fff; /* Màu nền của modal */
+    padding: 20px;
+  }
+
+
+  
+
+  .page-divider {
+    border: none;
+    margin: 0 auto; /* Khoảng cách trên và dưới divider */
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 90%;
+    text-align: center;
+  }
+
+  .close-btn {
+      border: none;
+      outline: none;
+      background-color: transparent;
+      font-size: 30px;
+  }
+
+  //toolbar open image viewer
+  .toolbar-wrapper {
+    position: fixed;
+    bottom: 32px;
+    left: 50%;
+    padding: 0px 24px;
+    color: #fff;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    transform: translateX(-50%);
+  }
+  
+  .toolbar-wrapper .anticon {
+    padding: 12px;
+    cursor: pointer;
+  }
+  
+  .toolbar-wrapper .anticon[disabled] {
+    cursor: not-allowed;
+    opacity: 0.3;
+  }
+  
+  .toolbar-wrapper .anticon:hover {
+    opacity: 0.3;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    /* Header */
+    .pdf-container {
+      max-width: 100%;
+    }
+
+  }

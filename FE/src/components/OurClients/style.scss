@@ -1,0 +1,64 @@
+
+.client-container {
+    padding: 50px 0;
+    background-image: url('/images/background/bg-collab.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+
+
+
+.client-container .serv-title {
+    text-align: center;
+    letter-spacing: 0.0125em;
+    // font-family: 'Rubik', sans-serif !important;
+    // font-family: 'Poppins', sans-serif !important;
+
+    // font-family: 'Open Sans', sans-serif !important;
+
+}
+
+.client-container .divider {
+    width: 200px !important;
+    margin: 0 auto 10px auto;
+    border-bottom: 3px solid rgba(248, 53, 53, 0.884);
+}
+
+.carousel-wrapper {
+    margin-top: 5%;   
+}
+
+.clients-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    padding: 10px;
+    margin: 20px 25px;
+
+    background-color: rgba(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+
+
+}
+
+.clients-image {
+    width: 100px;
+    object-fit: cover;
+    margin: 0 auto;
+    height: auto;
+}
+
+
+@media (min-width: 768px) {
+
+    .client-container {
+        padding: 10px 0 60px 0px;
+    }
+    
+}
+

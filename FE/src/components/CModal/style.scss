@@ -1,0 +1,24 @@
+.title_modal {
+    text-align: center;
+    font-weight: 600 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 22px !important;
+  }
+  
+  .MuiModal-root {
+    & .css-tlc64q-MuiPaper-root-MuiDialog-paper {
+      max-width: 600px;
+    }
+  }
+  
+  .MuiDialogContent-root.css-ypiqx9-MuiDialogContent-root {
+    padding: 10px 25px 10px 25px !important;
+  }
+
+//   .ant-modal-confirm-title {
+//       font-weight: 500 !important;
+//   }
+
+//   .ant-modal-content {
+//       border-radius: 0px !important;
+//   }

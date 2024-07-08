@@ -1,0 +1,139 @@
+.news-section {
+    margin-top: 3rem;
+}
+
+.news_title {
+    color: #101129;
+    font-size: 30px;
+    font-weight: 700;
+    max-width: 1060px;
+    line-height: 2.8rem;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.news_date {
+    color: #1f2251;
+    display: flex;
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.news_date .Individual_property__z_ZMk {
+    flex-shrink: 0;
+    font-size: 13px;
+    font-weight: 700;
+    vertical-align: middle;
+    width: auto;
+    text-transform: uppercase;
+    color: #D72134;
+    margin-right: 5px;
+
+
+}
+
+.author_name {
+    font-size: 15px;
+    letter-spacing: .04em;
+    color: rgb(63, 60, 60);
+    margin-left: 2rem;
+    font-weight: 600;
+}
+
+.news_date .Individual_text__NT3AW {
+    font-size: 14px;
+    letter-spacing: .04em;
+    color: rgb(117, 112, 112);
+    font-family: inherit;
+    vertical-align: middle;
+
+}
+.content_area {
+    margin: 30px auto 30px auto;
+    max-width: 100%; /* Giới hạn chiều rộng tối đa */
+    overflow-wrap: break-word; /* Tự động xuống hàng khi cần thiết */
+    // border-bottom: 2px solid #d1d1d3;
+
+}
+.dividerBeforeContent {
+    width: 50%;
+    height: 1px;
+    background-color: #d1d1d3;
+    margin: 30px auto 0px auto;
+    border-radius: 20px;
+}
+
+.divider {
+    width: 50%;
+    height: 1px;
+    background-color: #d1d1d3;
+    margin: 0 auto;
+    border-radius: 20px;
+
+}
+.news-section .row {
+    max-width: 1300px !important;
+}
+
+.news_thumbnail {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    margin: 30px auto 0px auto;
+    border-radius: 0px 50px 0px 0px;
+}
+
+.seeMore_lk {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    float: right
+}
+
+.card_details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card_details .title {
+    // max-width: 200px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+
+    
+}
+
+.card_details .views {
+    font-size: 14px;
+    color: rgb(143, 135, 135);
+    text-align: end;
+    margin-top: 15px;
+    // font-style: italic;
+}
+
+.Individual_informations__bEX4Z .txt_intro {
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.envent-list {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    /* Header */
+    .news-section {
+      margin-top: 5rem;
+    }
+
+  }

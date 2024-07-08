@@ -1,0 +1,109 @@
+#header {
+  font-size: 62.5%;
+}
+
+.text-header .header-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: navy;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.text-header .header-text2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #005995;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row !important;
+}
+
+.custom-search-input {
+  transition: all 0.5s;
+  transform: scaleY(0);
+  display: none;
+}
+
+
+.custom-search-input.active {
+  transform: scaleY(1);
+  display:block;
+}
+
+.custom-search-input .ant-input {
+  border-radius: 0;
+  border: none; /* hoặc border: 0; */
+  font-size: 16px !important;
+  transition: all 0.3s;
+
+}
+
+.custom-search-input .ant-input-affix-wrapper:not(:last-child){
+  border: none;
+}
+
+
+.custom-search-input .ant-input-prefix {
+  padding: 15px;
+}
+
+.custom-search-input .ant-input-group-addon {
+  display: none;
+}
+
+
+
+.navbar-nav li a {
+  text-decoration: none;
+  
+}
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+.nav-link.active {
+  background-color: #67c6f5;
+  color: #fff !important;
+  font-weight: bold !important;
+}
+
+.nav-link:not(.active) {
+  color: #fff !important; /* Màu chữ khi không active */
+}
+
+@media only screen and (max-width: 1024px) {
+  .anh1 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  .nav-link:not(.active) {
+    color: rgb(92, 88, 88) !important; /* Màu chữ khi không active */
+    font-weight: 400 !important;
+  }
+
+  #header {
+    display: none;
+  }
+
+  .navbar-nav li {
+    margin-bottom: 10px
+  }
+  
+
+  
+}

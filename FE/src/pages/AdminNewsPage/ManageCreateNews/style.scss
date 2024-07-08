@@ -1,0 +1,28 @@
+// .ant-btn {
+//     border-radius: 0; /* Đặt góc thành 0 */
+//   }
+.customInput {
+    border-radius: 0; /* Đặt góc thành 0 */
+}
+.ant-select-selector {
+  border-radius: 0 !important;
+  font-size: 15px !important;
+}
+
+.custom-file-upload {
+  border: 1px dashed rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  width: 100%;
+  // height: 100px;  
+  overflow: auto;
+}
+
+.with-divider {
+  border-right: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
+
+.custom-close-button {
+  margin-left: 8px; /* Điều chỉnh khoảng cách giữa nút và nội dung thẻ */
+  cursor: pointer; /* Biểu tượng chuột thay đổi thành "hand" khi di chuột qua nút "x" */
+}

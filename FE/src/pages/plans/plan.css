@@ -1,0 +1,95 @@
+@media (min-width: 992px){
+.tongthe {
+    width: 100%;
+    
+    
+}
+}
+.tongthe{
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.thongbao{
+    width: 100%;
+    
+}
+.thongbao1{
+    text-align: left;
+    
+}
+.h22{
+    font-size: 2rem;
+    color: blue;
+    font-weight: 500;
+}
+.header-title {
+    color: #0072bc;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.kehoach {
+    padding: 10px;
+}
+
+
+.row-fluid {
+    background-color: #f2e2e2;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 5px;
+    vertical-align: middle;
+    width: 100%;
+}
+.kehoach1{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.event-show-avatar {
+    float: left;
+    padding: 10px;
+    width: 80%;
+    height: 240px;
+}
+.luachon{
+    width: 100%;
+}
+.event-show-content {
+    
+    float: left;
+    width: 70%;
+    padding: 10px;
+}
+.event-from-content-child {
+    float: left;
+    width: 100%;
+    color: #0f57af;
+}
+.event-from-content-child-lable {
+    font-weight: bold;
+}
+.xemct:hover{
+text-decoration:underline;
+color: black;
+}
+
+
+.row-bottom-panel {
+    background-color: #c9c1c1;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    vertical-align: middle;
+    width: 100%;
+}
+.span1{
+    color:black;
+}

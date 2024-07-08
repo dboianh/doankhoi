@@ -1,0 +1,126 @@
+.page-template-template-san-pham .page-header .wrap1 .title {
+    color: #0F733D;
+}
+
+.ht{
+    background-color: aliceblue;
+    margin-bottom: 1%;
+}
+.comlum2{
+
+width: 50%;
+height: 10%;
+margin-top: 5px;
+
+}
+.comlum3 {
+    width: 50%;
+    height: 10%;
+}
+
+ul {
+    list-style-type: disc;
+    padding: -3px;
+}
+
+.li{
+    display: block;
+    
+    padding: -1px;
+        font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+.panel3 ,ul {
+    display: block;
+    
+padding: 20px 28px 20px 20px;
+    font-size: 14px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    text-align:justify;
+   
+   
+}
+.panel3{
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.panel1{
+    margin-bottom: 20px;
+}
+
+.services .wrapper{
+    position: relative;
+    width: 100%;
+    font-size: 16px;
+    background-color: #fff;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-top: 0!important;
+    background-color: #fff;
+    padding-bottom: 0;
+}
+
+.row {
+    margin-left: -120px;
+    margin-right: -2px;
+    margin-top: 0px;
+   
+}
+
+
+#bddichvu {
+    border: 1px solid gray;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: gray;
+    border-right-color: gray;
+    border-bottom-color: gray;
+    border-left-color: gray;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    width: 95%;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 10px 10px -5px rgb(109, 92, 127);
+
+
+}
+.col-sm-6{
+    border: 1px;
+    margin-top: 5px;
+    
+}
+#bddichvu:hover{
+    box-shadow: 0 5px 12px 5px rgb(71, 98, 118);
+    transform: scale(1.02);
+    
+}
+
+.img1{
+    height: 100px;
+    width: 150px;
+}
