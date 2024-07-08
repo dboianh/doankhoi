@@ -40,26 +40,7 @@ function App() {
               ></Route>
             );
           })}
-          {/* Private routes with DashboardLayout */}
-          {/* {privateRoutes.map((item, index) => (
-              <Route key={index} path={item.path} element={
-                <AuthJWT>
-                  <DashboardLayout>
-                    {item.element}
-                  </DashboardLayout>
-                </AuthJWT>
-              } />
-            ))} */}
-          <Route path="/dashboard" element={
-            <AuthJWT>
-              <DashboardLayout />
-            </AuthJWT>
-          }>
-            {privateRoutes.map((item, index) => (
-              <Route key={index} path={item.path} element={item.element} />
-            ))}
-          </Route>
-          {/* {
+          {
             privateRoutes.map((item, index) => {
               return (
                 <Route key={index} path="/dashboard" element={
@@ -72,7 +53,7 @@ function App() {
 
               );
             })
-          } */}
+          }
         </Routes>
       </div>
       </ThemeProvider>
